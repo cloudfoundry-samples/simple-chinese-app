@@ -7,7 +7,7 @@ var host = "0.0.0.0";
 var port = process.env.PORT || 3000;
 
 http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html;charset=GBK'});
+    res.writeHead(200, {'Content-Type': 'text/html;charset=UTF-8'});
     res.write('<h1>Hello from a node app! ');
     res.write('</h1>');
     res.write('<h2>');
